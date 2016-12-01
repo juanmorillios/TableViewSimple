@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
   override func viewDidLoad() {
     super.viewDidLoad()
-  
+    
     self.tableView.dataSource = self
     self.tableView.delegate = self
 
@@ -41,8 +41,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     return cell
     
       }
-  
-  
 
 }
 
